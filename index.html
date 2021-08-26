@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="#">Shop</a></h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="items">
+        
+        <div class="item">
+            <h2 class="item-name">Double Walled Mug</h2>
+            <img src="./img/double walled mug.jfif" alt="" class="item-img">
+            <div class="bottom">
+                <p class="item-price">$8.99</p>
+                <button id="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="item">
+            <h2 class="item-name">Diner Mug Colored</h2>
+            <img src="./img/diner mug colored.jpg" alt="" class="item-img">
+            <div class="bottom">
+                <p class="item-price">$5.99</p>
+                <button id="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="item">
+            <h2 class="item-name">DOWAN Coffee Mug</h2>
+            <img src="./img/Dowan coffee mugs.jpg" alt="" class="item-img">
+            <div class="bottom">
+                <p class="item-price">$10.99</p>
+                <button id="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="item">
+            <h2 class="item-name">Fancy Metallic Mug</h2>
+            <img src="./img/fancy metalic mugs.jfif" alt="" class="item-img">
+            <div class="bottom">
+                <p class="item-price">$9.99</p>
+                <button id="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="item">
+            <h2 class="item-name">Personalized Mug</h2>
+            <img src="./img/personalised mug.jfif" alt="" class="item-img">
+            <div class="bottom">
+                <p class="item-price">$4.99</p>
+                <button id="add-to-cart">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+        
+    <div class="cart">
+        <h1>CART</h1>
+
+        <div class="ipq">
+            <p>ITEM</p>
+            <p>PRICE</p>
+            <p id="quantity">QUANTITY</p>
+        </div>
+        <div class="cart-items">
+            <div class="cart-item">
+                <!-- <div class="item-in-cart">
+
+                </div>
+                <div class="item-in-cart-price">
+                    
+                </div>
+                
+                <div class="item-in-cart-quantity">
+
+                </div> -->
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong>TOTAL</strong>
+            <span class="total-price">$0</span>
+        </div>
+        <div class="purchase">
+            <button>PURCHASE</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
